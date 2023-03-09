@@ -42,7 +42,6 @@ function Skills() {
 
   function addSkill() {
     if (!skillInput) {
-      console.log("noSkill");
       return;
     }
 

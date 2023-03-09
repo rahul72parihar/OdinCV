@@ -10,7 +10,6 @@ function Heading() {
 
   const [isEditing, setIsEditing] = React.useState(false);
   function handleChange(e: any) {
-    console.log(e.target.name);
     setData((prevData) => ({
       ...prevData,
       [e.target.name]: e.target.value,
