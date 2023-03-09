@@ -1,0 +1,38 @@
+.education {
+  width: 500px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+.education > .edit-education-button {
+  visibility: hidden;
+}
+.education:hover .edit-education-button {
+  visibility: visible;
+}
+.singleEdu {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.singleEdu button {
+  visibility: hidden;
+}
+.singleEdu:hover button {
+  visibility: visible;
+}
+#delete-edu-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.add-education-form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgba(240, 248, 255, 0.3);
+  padding: 20px;
+}

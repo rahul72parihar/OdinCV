@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+a {
+  text-decoration: inherit;
+}
+body {
+  padding: 20px 0;
+  background-image: url(/src/assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Inter", sans-serif;
+}
+input {
+  height: 2em;
+  padding: 0 0.5em;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.5em;
+  outline: none;
+}
+textarea {
+  resize: none;
+  height: 100px;
+  padding: 0.5em;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+button {
+  font-family: "Inter", sans-serif;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5em;
+}
