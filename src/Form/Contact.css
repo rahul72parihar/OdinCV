@@ -1,0 +1,43 @@
+.contact {
+  position: relative;
+  width: 200px;
+  padding: 10px;
+}
+
+.contact-info {
+  overflow-wrap: normal;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-info > div {
+  word-wrap: break-word;
+}
+
+.contact:hover .edit-button {
+  visibility: visible;
+}
+
+.EditForm {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: rgba(250, 250, 250, 0.3);
+  padding: 20px;
+  z-index: 2;
+  border-radius: 20px;
+}
+
+.EditForm > input {
+  text-align: right;
+}
+
+.edit-button {
+  visibility: hidden;
+  display: block;
+  margin: 5px auto;
+}
